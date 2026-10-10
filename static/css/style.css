@@ -1,0 +1,46 @@
+/* Page-wide styles: base font and background */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    margin: 40px;
+}
+
+/* Paragraph styles: text color and line spacing */
+p {
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Level two headings: color and a bottom border */
+h2 {
+    color: #9e1b32;
+    border-bottom: 2px solid #ffd520;
+}
+
+/* Table styles: visible border with a border color */
+table {
+    border: 2px solid #9e1b32;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #9e1b32;
+    padding: 8px;
+}
+
+/* ID selector: only styles the paragraph with id="goals-note" */
+p#goals-note {
+    font-style: italic;
+    background-color: #fff4cc;
+}
+
+/* Class rule block: applied with class="highlight" */
+.highlight {
+    background-color: #ffd520;
+}
+
+/* Named logo block: only applies to img tags with class="logo" */
+img.logo {
+    width: 200px;
+    height: 80px;
+}
